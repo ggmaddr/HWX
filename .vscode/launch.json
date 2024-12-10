@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "rdbg",
+            "name": "Debug compiler.rb with rdbg",
+            "request": "launch",
+            "script": "/Users/giangta/SJSU/Fall2024/CS152/HW/lab20/compiler.rb",
+            "cwd": "/Users/giangta/SJSU/Fall2024/CS152/HW/lab20", // Set the working directory
+            "askParameters": true,
+            "showProtocolLog": true // Enable debug logging for troubleshooting
+        }
+        
+    ]
+}
